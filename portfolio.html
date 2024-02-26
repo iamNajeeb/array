@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body{
+        font-family: Arial,verdana,sans-serif;
+        font-size: 90%;
+        color: #666;
+        background-color: #f8f8f8;
+      }
+      li{
+       list-style-image: url("images/icon-plus.png");
+       line-height: 1.6em;
+      }
+      table{
+        border-spacing: 0px;
+      }
+      th,td{
+        padding: 5px 30px 5px 10px;
+        font-size: 90%;
+        margin: 0px;
+      }
+      th,td{
+        text-align: left;
+        background-color: #e0e9f0;
+        border-top: 1px solid #f1f8fe;
+        border-bottom: 1px solid #cbd2d8;
+        border-right: 1px solid #cbd2d8;
+
+      }
+      tr.head th{
+        color: #fff;
+        background-color: #90b4d6;
+        border-bottom: 2px solid #547ca0;
+        border-right: 1px solid #749abe;
+        border-top: 1px solid #90b4d6;
+        text-align: center;
+        text-shadow: -1px -1px 1px #666;
+        letter-spacing: 0.15em;
+
+
+      }
+      td{
+        text-shadow: 1px 1px 1px #fff;
+      }
+
+      
+    </style>
+  </head>
+  <body>
+    <h1>Poetry Workshops</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae,
+      provident voluptate. At voluptatibus rerum possimus vel magni eaque,
+      consequatur iure placeat! Amet non est cupiditate, beatae accusamus nobis
+      officia harum.
+    </p>
+    <ul>
+      <li>A Poetic Perspective</li>
+      <li>Wait Whitman at War</li>
+      <li>Found Poem and Outsider Poetry</li>
+    </ul>
+    <table>
+      <tr class="head">
+        <th></th>
+        <th>New Yark</th>
+        <th>Chicago</th>
+        <th>San Francisco</th>
+      </tr>
+      <tr>
+        <th>A Poetic Perspective</th>
+        <td>
+          Sat,4 Feb 2012 <br />
+          11 am-2pm
+        </td>
+        <td>
+          Sat,3 Mar 2012 <br />
+          11am-2pm
+        </td>
+      </tr>
+      <tr>
+        <th>Wait Whitman</th>
+        <td>
+          Sat,7Apr 2012 <br />
+          11 am-2pm
+        </td>
+        <td>
+          Sat,5 May 2012 <br />
+          11am-1pm
+        </td>
+      </tr>
+      <tr>
+        <th>Found Poem & Outsider Poetry</th>
+        <td>
+          Sat,9 Jun 2012 <br />
+          11am-2pm
+        </td>
+        <td>
+          Sat,7 Jul 2012 <br />
+          11am-2pm
+        </td>
+      </tr>
+      <tr>
+        <th>Natural Death:An Exploration</th>
+        <td>
+          Sat,4 Aug 2012 <br />
+          11am-4pm
+        </td>
+        <td>
+          Sat,8 Set 2012 <br />
+          11am-4pm
+        </td>
+      </tr>
+    </table>
+    <form action="">
+      <fieldset>
+        <legend>Register your interest</legend>
+        <p>
+          <legend class="title" for="name">Your name</legend>
+          <input type="text" name="name" id="name" /><br />
+          <label class="title" for="email">Your email</label>
+          <input type="text" name="email" id="email" />
+        </p>
+        <p>
+          <label for="location" class="title">Your closest center:</label>
+          <select name="location" id="location">
+            <option value="ny">New York</option>
+            <option value="il">Chicago</option>
+            <option value="ca">San Francisco</option>
+          </select>
+        </p>
+        <span class="title">Are you member?</span>
+        <label> <input type="radio" name="member" value="Yes" /></label>
+        <label><input type="radio" name="member" value="No" /></label>
+      </fieldset>
+      <div class="submit"><input type="submit" value="Register" /></div>
+    </form>
+  </body>
+</html>
